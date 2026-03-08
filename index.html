@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateliê Açucarado | Doces Gourmet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body class="bg-white text-chocolate">
+
+    <nav class="fixed w-full bg-white border-b-2 border-lavanda z-50">
+        <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+            <div class="flex-shrink-0">
+                <img src="public/img/logo.png" alt="Ateliê Açucarado" class="h-16 rounded-full">
+            </div>
+
+            <div class="hidden md:flex space-x-8 font-semibold uppercase text-sm tracking-wide">
+                <a href="#sobre" class="hover:text-roxoDoce transition">Sobre</a>
+                <a href="#servicos" class="hover:text-roxoDoce transition">Serviços</a>
+                <a href="#cardapio" class="hover:text-roxoDoce transition">Cardápio</a>
+                <a href="#contato" class="hover:text-roxoDoce transition">Contato</a>
+            </div>
+
+            <div class="flex items-center space-x-4 text-xl">
+                <a href="#" class="hover:text-roxoDoce transition" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="#" class="hover:text-roxoDoce transition" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="hover:text-roxoDoce transition" title="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" class="hover:text-roxoDoce transition" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="hover:text-roxoDoce transition" title="iFood"><i class="bi bi-bag-heart"></i></a>
+                <a href="#" class="hover:text-roxoDoce transition" title="99 Food"><i class="bi bi-bicycle"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="min-h-screen flex flex-col justify-center items-center relative overflow-hidden bg-white">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+            <div class="absolute -top-20 -left-20 w-96 h-96 bg-roxoDoce rounded-full filter blur-[100px]"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-lavanda rounded-full filter blur-[100px]"></div>
+        </div>
+
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <div class="inline-block px-6 py-2 mb-6 border border-lavanda rounded-full text-roxoDoce font-medium tracking-widest uppercase text-sm">
+                Bem-vindo ao nosso Ateliê
+            </div>
+
+            <h1 class="text-6xl md:text-9xl font-extrabold text-chocolate mb-8 tracking-tight">
+                Ateliê <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-roxoDoce to-purple-600">Açucarado</span>
+            </h1>
+            
+            <p class="text-xl md:text-3xl text-gray-600 italic font-light mb-10 max-w-2xl mx-auto">
+                "O sabor doce de boas memórias."
+            </p>
+
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#cardapio" class="bg-chocolate text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-roxoDoce transition-all transform hover:scale-105 shadow-xl">
+                    Explorar Cardápio
+                </a>
+                <a href="#contato" class="border-2 border-chocolate text-chocolate px-10 py-4 rounded-full font-bold text-lg hover:bg-chocolate hover:text-white transition-all">
+                    Fazer Encomenda
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 animate-bounce">
+            <a href="#sobre" class="text-chocolate text-2xl"><i class="bi bi-chevron-down"></i></a>
+        </div>
+    </header>
+
+    <section id="sobre" class="min-h-screen flex flex-col justify-center items-center px-6 py-20 bg-white">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2 space-y-6">
+                    <span class="text-roxoDoce font-bold tracking-widest uppercase text-sm">Nossa essência</span>
+                    <h2 class="text-5xl md:text-6xl font-extrabold text-chocolate leading-tight">
+                        Feito à mão, <br><span class="text-roxoDoce">com o coração.</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        No <strong>Ateliê Açucarado</strong>, acreditamos que cada doce conta uma história. Não entregamos apenas sobremesas; criamos experiências sensoriais que despertam memórias afetivas.
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Utilizamos ingredientes selecionados e técnicas de alta confeitaria para garantir que cada mordida seja inesquecível.
+                    </p>
+                </div>
+
+                <div class="lg:w-1/2 w-full relative">
+                    <div class="bg-lavanda/20 p-8 rounded-3xl border border-lavanda/50 shadow-2xl relative z-10">
+                        <div class="bg-white p-6 rounded-2xl shadow-inner">
+                            <div class="flex items-center gap-4 mb-6">
+                                <div class="bg-roxoDoce text-white p-4 rounded-full text-2xl">
+                                    <i class="bi bi-balloon-heart-fill"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-chocolate">Qualidade Premium</h3>
+                            </div>
+                            <ul class="space-y-4 text-gray-700">
+                                <li class="flex items-center gap-3"><i class="bi bi-check2-circle text-roxoDoce text-xl"></i> Chocolates nobres selecionados</li>
+                                <li class="flex items-center gap-3"><i class="bi bi-check2-circle text-roxoDoce text-xl"></i> Produção artesanal diária</li>
+                                <li class="flex items-center gap-3"><i class="bi bi-check2-circle text-roxoDoce text-xl"></i> Design exclusivo em cada detalhe</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="absolute -top-10 -right-10 w-64 h-64 bg-lavanda rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="min-h-screen flex flex-col justify-center items-center py-24 bg-gray-50 px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-roxoDoce font-bold tracking-widest uppercase text-sm mb-4">Experiências</h2>
+                <h3 class="text-5xl md:text-6xl font-extrabold text-chocolate">O que preparamos para você</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                
+                <div class="group bg-white p-10 rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-lavanda/30 text-center">
+                    <div class="bg-lavanda/20 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+                        <i class="bi bi-gift text-4xl text-roxoDoce"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-chocolate mb-4">Presentes Personalizados</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Caixas exclusivas, pensadas nos mínimos detalhes para tornar seu presente inesquecível.
+                    </p>
+                </div>
+
+                <div class="group bg-white p-10 rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-lavanda/30 text-center">
+                    <div class="bg-lavanda/20 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+                        <i class="bi bi-calendar-event text-4xl text-roxoDoce"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-chocolate mb-4">Eventos Especiais</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Doces finos que dão o toque de elegância que seu casamento, festa ou evento corporativo merece.
+                    </p>
+                </div>
+
+                <div class="group bg-white p-10 rounded-[2rem] shadow-xl hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-lavanda/30 text-center">
+                    <div class="bg-lavanda/20 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300">
+                        <i class="bi bi-truck text-4xl text-roxoDoce"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-chocolate mb-4">Delivery Express</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        A doçura do ateliê entregue no conforto da sua casa, através dos nossos apps parceiros.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="cardapio" class="min-h-screen flex flex-col justify-center items-center py-24 bg-white px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-roxoDoce font-bold tracking-widest uppercase text-sm mb-4">Degustação</h2>
+                <h3 class="text-5xl md:text-6xl font-extrabold text-chocolate">Nossos Destaques</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="group bg-gray-50 p-8 rounded-[2rem] border border-transparent hover:border-lavanda/30 transition-all duration-500 shadow-lg hover:shadow-2xl">
+                    <div class="relative overflow-hidden rounded-2xl mb-6">
+                        <div class="absolute top-4 right-4 bg-roxoDoce text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Favorito</div>
+                        <i class="bi bi-cup-hot text-6xl text-roxoDoce"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-chocolate mb-2">Mousses Gourmet</h4>
+                    <p class="text-gray-600 mb-6">Textura aveludada e leve, com aquele toque de chocolate suíço que derrete na boca.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-roxoDoce">A partir de R$ 12</span>
+                        <button class="text-chocolate font-bold border-b-2 border-chocolate hover:text-roxoDoce hover:border-roxoDoce transition">Ver mais</button>
+                    </div>
+                </div>
+
+                <div class="group bg-gray-50 p-8 rounded-[2rem] border border-transparent hover:border-lavanda/30 transition-all duration-500 shadow-lg hover:shadow-2xl">
+                    <div class="relative overflow-hidden rounded-2xl mb-6">
+                        <div class="absolute top-4 right-4 bg-roxoDoce text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Premium</div>
+                        <i class="bi bi-cake2 text-6xl text-roxoDoce"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-chocolate mb-2">Doces Artesanais</h4>
+                    <p class="text-gray-600 mb-6">Feitos um a um, com os melhores ingredientes do mercado para garantir sabor único.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-roxoDoce">Sob consulta</span>
+                        <button class="text-chocolate font-bold border-b-2 border-chocolate hover:text-roxoDoce hover:border-roxoDoce transition">Ver mais</button>
+                    </div>
+                </div>
+
+                <div class="group bg-gray-50 p-8 rounded-[2rem] border border-transparent hover:border-lavanda/30 transition-all duration-500 shadow-lg hover:shadow-2xl">
+                    <div class="relative overflow-hidden rounded-2xl mb-6">
+                        <div class="absolute top-4 right-4 bg-roxoDoce text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Eventos</div>
+                        <i class="bi bi-gift-fill text-6xl text-roxoDoce"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-chocolate mb-2">Linha Festas</h4>
+                    <p class="text-gray-600 mb-6">O toque final para sua celebração. Doces finos que encantam os convidados e decoram a mesa.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-roxoDoce">Orçamento</span>
+                        <button class="text-chocolate font-bold border-b-2 border-chocolate hover:text-roxoDoce hover:border-roxoDoce transition">Solicitar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="min-h-screen flex flex-col justify-center items-center py-24 bg-chocolate text-white px-6">
+        <div class="container mx-auto max-w-4xl">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <div class="space-y-8">
+                    <h2 class="text-5xl md:text-6xl font-extrabold leading-tight">
+                        Vamos <span class="text-lavanda">conversar?</span>
+                    </h2>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        Estamos prontos para tornar seu evento ou sua tarde muito mais doce. Entre em contato conosco para orçamentos, encomendas ou apenas para tirar dúvidas!
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <i class="bi bi-clock-fill text-lavanda text-2xl"></i>
+                            <span>Segunda a Sábado: 09h às 18h</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="bi bi-geo-alt-fill text-lavanda text-2xl"></i>
+                            <span>Franco da Rocha, SP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-[2rem] shadow-2xl space-y-6 text-chocolate">
+                    <h3 class="text-2xl font-bold text-center">Atendimento Rápido</h3>
+                    
+                    <a href="#" class="flex items-center justify-between p-4 bg-gray-50 rounded-2xl hover:bg-lavanda/20 transition duration-300 border border-gray-100">
+                        <div class="flex items-center gap-4">
+                            <i class="bi bi-whatsapp text-3xl text-green-500"></i>
+                            <span class="font-bold">WhatsApp</span>
+                        </div>
+                        <i class="bi bi-arrow-right-circle text-2xl"></i>
+                    </a>
+
+                    <a href="#" class="flex items-center justify-between p-4 bg-gray-50 rounded-2xl hover:bg-lavanda/20 transition duration-300 border border-gray-100">
+                        <div class="flex items-center gap-4">
+                            <i class="bi bi-instagram text-3xl text-purple-600"></i>
+                            <span class="font-bold">Instagram</span>
+                        </div>
+                        <i class="bi bi-arrow-right-circle text-2xl"></i>
+                    </a>
+
+                    <p class="text-sm text-center text-gray-500 pt-4">
+                        Respostas em até 2 horas dentro do horário comercial.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-chocolate text-center py-8 border-t border-chocolate/50">
+        <p class="text-gray-400 text-sm">
+            &copy; 2026 Ateliê Açucarado - Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./public/js/script.js"></script>
+</body>
+</html>
