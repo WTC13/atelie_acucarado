@@ -40,7 +40,7 @@ O projeto é puramente frontend (estático), não exigindo compiladores ou servi
 **Clone o repositório:**
 
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone [URL_DO_SEU_REPOSITORIO](https://github.com/WTC13/atelie_acucarado/tree/main)
 ```
 
 **Abra o arquivo principal:**
